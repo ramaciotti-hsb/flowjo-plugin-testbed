@@ -2,7 +2,7 @@
 Note: This is to be used in conjunction with [flowjo-plugin-data-dump](https://github.com/nicbarker/flowjo-plugin-data-dump)
 
 ## Usage
-- Download the data-dump plugin .jar from the releases page
+- Download the data-dump plugin .jar from the [releases page](https://github.com/nicbarker/flowjo-plugin-data-dump/releases)
 - Place it in your `/Applications/plugins` directory or windows equivalent
 - Start FlowJo
 - Select a sample or node then click Workspace -> Plugins -> FlowJoPluginDataDump
@@ -10,7 +10,7 @@ Note: This is to be used in conjunction with [flowjo-plugin-data-dump](https://g
 ```Java
 invokeAlgorithm(FlowJoPluginTestbed.getFcmlFromFile("/some/directory/FlowJo Plugin Data Dump/fcmlQueryElement.xml"), FlowJoPluginTestbed.createFileObject("/some/directory/FlowJo Plugin Data Dump/st_HM-1_CHECK192_001..ExtNode.csv"), FlowJoPluginTestbed.createFileObject("/some/directory/FlowJo Plugin Data Dump"));
 ```
-- Download the testbed .jar from the releases page
+- Download the testbed .jar from the [releases page](https://github.com/nicbarker/flowjo-plugin-testbed/releases)
 - Add [flowjo-plugin-testbed.jar](https://github.com/nicbarker/flowjo-plugin-testbed) to your classpath
 - In your plugin, create a main function and call the `invokeAlgorithm()` from the previous step
 ```Java
